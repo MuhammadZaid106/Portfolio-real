@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Zaid — Full-Stack Developer Portfolio
 
-## Getting Started
+Welcome to the official repository of my personal portfolio website. Built with premium aesthetics, fluid interactive animations, and a modern high-tech design language.
 
-First, run the development server:
+🚀 **Live Site:** [zaidn.vercel.app](https://zaidn.vercel.app/)
+
+---
+
+## 🛠️ Technology Stack
+
+This website is engineered using state-of-the-art web technologies for maximum performance, clean developer experience, and design excellence:
+
+- **Core Framework:** Next.js 16 (App Router)
+- **Programming Language:** TypeScript
+- **Styling Engine:** Tailwind CSS & Custom CSS
+- **Animation System:** Framer Motion (Fluid micro-interactions & entrance animations)
+- **Iconography:** Lucide Icons & React Icons (granularity optimized)
+- **Form Submissions:** Resend API integration (secured via dynamic server API routes)
+
+---
+
+## ✨ Features
+
+- **Dynamic Navigation:** Header automatically tracks active paths (`/`, `/about`, `/work`, `/services`, `/contact`) using custom React hooks & `usePathname`.
+- **Sleek Custom 404 Page:** High-tech error template with interactive navigation redirects.
+- **Contact & Project Intake Form:** Fully responsive mobile-ready layout with loading states, inline error catches, and dynamic email routing.
+- **Portfolio Showcase:** Displays live-deployed production websites including e-commerce platforms, real estate hubs, and travel portals.
+- **High-Performance:** 100% static generation for content pages combined with serverless API dynamic routing.
+
+---
+
+## 📁 File Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+├── src
+│   ├── app
+│   │   ├── about            # About page route
+│   │   ├── contact          # Contact page route
+│   │   ├── services         # Services page route
+│   │   ├── work             # Work portfolio page route
+│   │   ├── api/contact      # Contact form API backend (Resend)
+│   │   ├── layout.tsx       # Global wrappers & metadata
+│   │   └── not-found.tsx    # Custom 404 error page
+│   ├── components
+│   │   ├── layout           # Header & Footer modules
+│   │   ├── sections/home    # Modular homepage component sections
+│   │   └── ui               # Reusable UI primitives (Button, FadeIn, etc.)
+│   └── data                 # Static content configuration data
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Environment Variables Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To run the contact form submissions, create a `.env.local` file in the root directory and add your Resend API configuration:
 
-## Learn More
+```env
+RESEND_API_KEY=your_resend_api_key_here
+CONTACT_EMAIL=your_inbox_email_here
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to run the project locally:
 
-## Deploy on Vercel
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MuhammadZaid106/portfolio.git
+   cd portfolio
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Run the development server:**
+   ```bash
+   pnpm dev
+   ```
+
+4. **Open the browser:**
+   Go to [http://localhost:3000](http://localhost:3000) to view your local deployment.
+
+---
+
+## 🔗 Project Showcase
+
+A selection of live client projects displayed on my portfolio:
+
+- 🛒 [Pegador Streetwear E-Commerce](https://pegador.vercel.app/)
+- ✈️ [Aetheria Travel Booking Portal](https://aetheria-travel.vercel.app/)
+- 🏠 [Landly Real Estate Directory](https://landlyrealestate.vercel.app/)
+- 🛍️ [AetherMart General Store](https://aethermart.vercel.app/)
+- 👤 [Zaid Personal Portfolio](https://zaidn.vercel.app/)
+
+---
+
+## 📬 Contact & Socials
+
+- **Email:** [zaidnaeem106@gmail.com](mailto:zaidnaeem106@gmail.com)
+- **LinkedIn:** [zaidnaeemdev](https://www.linkedin.com/in/zaidnaeemdev/)
+- **GitHub:** [MuhammadZaid106](https://github.com/MuhammadZaid106)
+- **Instagram:** [@zaid.devv](https://instagram.com/zaid.devv)
