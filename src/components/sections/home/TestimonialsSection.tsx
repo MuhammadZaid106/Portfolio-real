@@ -43,7 +43,7 @@ export default function TestimonialsSection() {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-[#141f19] font-sans leading-tight">
-              We Let Them Talk.
+              I Let Them Talk.
               <br />
               <span className="text-[#52c48a]">Here&apos;s What They Said.</span>
             </h2>

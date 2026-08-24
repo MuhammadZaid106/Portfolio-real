@@ -162,12 +162,11 @@ export default function TechStackSection() {
           {/* Left Title details */}
           <div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#141f19] font-sans leading-tight">
-              Yes. We Have Engineers{" "}
-              <span className="text-[#52c48a]">For Every Stack.</span>
+              Yes. I Have Expertise{" "}
+              <span className="text-[#52c48a]">In Every Stack.</span>
             </h2>
             <p className="text-[#5c6c64] text-sm font-sans mt-2 max-w-md leading-relaxed">
-              1000+ engineers with expertise in almost every programming
-              language.
+              Deep experience across frontend, backend, databases, DevOps, and mobile technologies.
             </p>
           </div>
 
@@ -185,12 +184,12 @@ export default function TechStackSection() {
               />
             </div>
 
-            {/* Our Full Stacks CTA button */}
+            {/* My Services CTA button */}
             <a
               href="/services"
               className="inline-flex items-center justify-center gap-2 bg-[#172b21] hover:bg-[#52c48a] hover:text-[#172b21] text-white text-xs font-bold uppercase tracking-wider font-sans px-5 py-3 rounded-full transition-all duration-300 shadow-sm shrink-0"
             >
-              <span>Our Full Stacks</span>
+              <span>My Services</span>
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
           </div>
