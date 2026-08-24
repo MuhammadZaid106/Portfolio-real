@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/layout/Header";
+import BookingWidget from "@/components/BookingWidget";
 import "./globals.css";
 
 const SITE_URL = "https://zaidn.vercel.app/";
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <BookingWidget bookingUrl="https://cal.com/zaid-naeem/discovery-call" />
       </body>
     </html>
   );
