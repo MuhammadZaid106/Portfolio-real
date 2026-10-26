@@ -6,9 +6,16 @@ import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/ui/FadeIn";
 
 export const metadata = {
-  title: "About Zaid — Full-Stack Developer",
+  title: "About",
   description:
-    "Learn about Zaid, a Full-Stack Developer specializing in modern web applications, SaaS products, and AI integrations.",
+    "Learn about Zaid Naeem, a full-stack developer specializing in modern web applications, SaaS products, and AI integrations.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    url: "/about",
+    title: "About Zaid Naeem",
+    description:
+      "Learn about Zaid Naeem, a full-stack developer specializing in modern web applications, SaaS products, and AI integrations.",
+  },
 };
 
 /* ── Timeline data ─────────────────────────────────────────────── */
@@ -101,7 +108,7 @@ export default function AboutPage() {
             </FadeIn>
             <FadeIn delay={0.3}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white font-sans leading-tight">
-                Hi, I&apos;m Zaid —<br />
+                Hi, I&apos;m Zaid Naeem —<br />
                 <span className="text-[#52c48a]">I Build the Web.</span>
               </h1>
             </FadeIn>

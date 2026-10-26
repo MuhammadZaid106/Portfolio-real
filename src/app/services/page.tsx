@@ -5,9 +5,14 @@ import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/ui/FadeIn";
 
 export const metadata = {
-  title: "Services — Zaid",
+  title: "Services",
   description:
-    "Explore professional web development services by Zaid — from SaaS dashboards to e-commerce, AI integrations, and full-stack product engineering.",
+    "Explore professional web development services by Zaid Naeem — from SaaS dashboards to e-commerce, AI integrations, and full-stack product engineering.",
+  alternates: { canonical: "/services" },
+  openGraph: {
+    url: "/services",
+    title: "Services | Zaid Naeem",
+  },
 };
 
 /* ── Core Services ─────────────────────────────────────── */

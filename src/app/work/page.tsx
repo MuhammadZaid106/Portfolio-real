@@ -6,9 +6,14 @@ import projects, { Project } from "@/data/projects";
 import FadeIn from "@/components/ui/FadeIn";
 
 export const metadata = {
-  title: "Work & Portfolio — Zaid",
+  title: "Work & Portfolio",
   description:
-    "Explore Zaid's live-deployed web projects across e-commerce, real estate, travel, and SaaS — built with Next.js, React, TypeScript, and more.",
+    "Explore Zaid Naeem's live-deployed web projects across e-commerce, real estate, travel, and SaaS — built with Next.js, React, TypeScript, and more.",
+  alternates: { canonical: "/work" },
+  openGraph: {
+    url: "/work",
+    title: "Work & Portfolio | Zaid Naeem",
+  },
 };
 
 /* ── Category colour map ─────────────────────────────────── */

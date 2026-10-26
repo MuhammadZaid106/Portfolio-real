@@ -39,6 +39,7 @@ const HeroSection = () => {
           {...fadeUp(0.12)}
           className="text-center text-3xl sm:text-5xl md:text-6xl font-medium text-white font-sans tracking-tight leading-[1.2] sm:leading-[1.1] max-w-3xl px-2"
         >
+          
           I build{' '}
           <span className="text-[#52c48a] font-semibold">fast, scalable</span>{' '}
           web products for funded startups

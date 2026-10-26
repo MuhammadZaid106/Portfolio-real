@@ -5,9 +5,14 @@ import SocialLinks from "@/components/ui/SocialLinks";
 import FadeIn from "@/components/ui/FadeIn";
 
 export const metadata = {
-  title: "Contact — Zaid",
+  title: "Contact",
   description:
-    "Get in touch with Zaid to discuss your project, request a quote, or just say hello. Available for freelance and contract work.",
+    "Get in touch with Zaid Naeem to discuss your project, request a quote, or just say hello. Available for freelance and contract work.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    url: "/contact",
+    title: "Contact | Zaid Naeem",
+  },
 };
 
 /* ── FAQ data ──────────────────────────────────────────── */
