@@ -1,4 +1,6 @@
-export const SITE_URL = "https://zaidn.vercel.app";
+const rawSiteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://zaidnaeem.vercel.app";
+export const SITE_URL = rawSiteUrl.replace(/\/+$/, "");
 export const SITE_NAME = "Zaid Naeem — Full-Stack Developer";
 export const SITE_TITLE = "Zaid Naeem | Full-Stack Developer for Startups";
 export const SITE_DESCRIPTION =
@@ -12,7 +14,7 @@ export const PERSON_ALTERNATE_NAMES = [
 ];
 
 export const PERSON_EMAIL = "zaidnaeem106@gmail.com";
-export const PERSON_PHONE = "+18189244347";
+export const PERSON_PHONE = "+923294633734";
 
 export const SOCIAL_PROFILES = [
   "https://github.com/MuhammadZaid106",

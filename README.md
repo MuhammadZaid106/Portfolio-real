@@ -2,7 +2,7 @@
 
 Welcome to the official repository of my personal portfolio website. Built with premium aesthetics, fluid interactive animations, and a modern high-tech design language.
 
-🚀 **Live Site:** [zaidn.vercel.app](https://zaidn.vercel.app/)
+🚀 **Live Site:** [zaidnaeem.vercel.app](https://zaidnaeem.vercel.app/)
 
 ---
 
@@ -94,7 +94,7 @@ A selection of live client projects displayed on my portfolio:
 - ✈️ [Aetheria Travel Booking Portal](https://aetheria-travel.vercel.app/)
 - 🏠 [Landly Real Estate Directory](https://landlyrealestate.vercel.app/)
 - 🛍️ [AetherMart General Store](https://aethermart.vercel.app/)
-- 👤 [Zaid Personal Portfolio](https://zaidn.vercel.app/)
+- 👤 [Zaid Personal Portfolio](https://zaidnaeem.vercel.app/)
 
 ---
 

@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
         <div style="font-family:sans-serif;max-width:600px;margin:0 auto;background:#f7faf8;padding:32px;border-radius:16px;">
           <div style="background:#0d1a12;border-radius:12px;padding:24px 28px;margin-bottom:24px;">
             <h1 style="color:#52c48a;font-size:22px;margin:0 0 4px;">New Project Inquiry</h1>
-            <p style="color:#9aada3;font-size:13px;margin:0;">via zaidn.vercel.app contact form</p>
+            <p style="color:#9aada3;font-size:13px;margin:0;">via zaidnaeem.vercel.app contact form</p>
           </div>
 
           <table style="width:100%;border-collapse:collapse;">

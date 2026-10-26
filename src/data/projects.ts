@@ -45,7 +45,7 @@ const projects: Project[] = [
     title: 'Zaid Portfolio',
     category: 'Creative Portfolio',
     description: 'Ultra-fast personal portfolio utilizing Next.js, Framer Motion, and Tailwind CSS for a premium showcase.',
-    link: 'https://zaidn.vercel.app/',
+    link: 'https://zaidnaeem.vercel.app/',
     imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80&auto=format&fit=crop',
   },
 ];

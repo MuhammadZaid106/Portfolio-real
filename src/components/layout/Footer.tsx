@@ -35,7 +35,7 @@ export default function Footer() {
             {/* Direct contact items */}
             <div className="space-y-3 font-sans">
               <a
-                href="tel:+18189244347"
+                href="tel:+923294633734"
                 className="flex items-center gap-3 text-sm text-gray-300 hover:text-[#52c48a] transition-colors group w-fit"
               >
                 <Phone className="w-4 h-4 text-[#52c48a]" />
@@ -46,7 +46,7 @@ export default function Footer() {
                 className="flex items-center gap-3 text-sm text-gray-300 hover:text-[#52c48a] transition-colors group w-fit"
               >
                 <Mail className="w-4 h-4 text-[#52c48a]" />
-                <span>zaid@vercel.app</span>
+                <span>zaidnaeem106@gmail.com</span>
               </a>
             </div>
 
