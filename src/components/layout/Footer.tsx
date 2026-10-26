@@ -39,7 +39,7 @@ export default function Footer() {
                 className="flex items-center gap-3 text-sm text-gray-300 hover:text-[#52c48a] transition-colors group w-fit"
               >
                 <Phone className="w-4 h-4 text-[#52c48a]" />
-                <span>+1 (818) 924-4347</span>
+                <span>+92 329 4633734</span>
               </a>
               <a
                 href="mailto:zaidnaeem106@gmail.com"
