@@ -68,6 +68,10 @@ export const metadata: Metadata = {
     },
   },
 
+  verification: {
+    google: "qDTzidfKBTC9ub-7Z98SrLP6X6bubaVNR-fziHXVOPk",
+  },
+
   alternates: {
     canonical: SITE_URL,
   },
